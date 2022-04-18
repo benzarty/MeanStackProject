@@ -1,0 +1,5 @@
+
+   {
+    "uri":"mongodb+srv://benzarti:esprit@cluster0.gnf8r.mongodb.net/CertifNode?retryWrites=true&w=majority",
+    "jwtSecret":"mysecrettoken"
+  }
