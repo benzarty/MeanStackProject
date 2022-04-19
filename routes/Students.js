@@ -82,7 +82,7 @@ verifyTokenadmin=(req,res,next)=>{
 
   
 router.post(
-  '/rout44',verifyTokenadmin,
+  '/rout44',
   
   async (req, res) => {
 
@@ -127,7 +127,6 @@ router.post(
       res.status(500).send('Server error');
     }
   }
-  res.json("non admin")
  },
  
 );
